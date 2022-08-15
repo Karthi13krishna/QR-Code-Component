@@ -20,6 +20,7 @@ body {
   color: var(--grayish-blue);
   height: 100vh;
   margin: 0;
+  max-width: 1440px;
 }
 
 h1,
@@ -46,6 +47,7 @@ h3 {
   align-items: center;
   text-align: center;
   box-shadow: 0 0 50px #8080804a;
+  margin: auto;
 }
 
 .card__qr {
@@ -68,6 +70,11 @@ h3 {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  left: 30%;
+  right: 30%;
+  bottom: 2.5%;
+  width: auto;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
