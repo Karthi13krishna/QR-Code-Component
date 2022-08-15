@@ -70,9 +70,9 @@ h3 {
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: fixed;
-  left: 30%;
-  right: 30%;
+  position: absolute;
+  left: 0;
+  right: 0;
   bottom: 2.5%;
   width: auto;
 }
