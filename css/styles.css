@@ -19,7 +19,7 @@ body {
   font-family: 'Outfit', sans-serif;
   color: var(--grayish-blue);
   height: 100vh;
-  font-size: 1.5rem;
+  margin: 0;
 }
 
 h1,
@@ -37,8 +37,7 @@ h3 {
 }
 
 .card {
-  height: auto;
-  width: 300px;
+  width: 30rem;
   padding: 1.5rem;
   background: white;
   border-radius: 2rem;
@@ -50,7 +49,6 @@ h3 {
 }
 
 .card__qr {
-  height: auto;
   width: 100%;
   border-radius: 1rem;
 }
@@ -58,7 +56,7 @@ h3 {
 .card__heading {
   font-size: 2rem;
   padding: 1rem;
-  margin: 0;
+  margin: 1rem 0 0;
 }
 
 .card__content {
