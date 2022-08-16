@@ -1,5 +1,5 @@
 :root {
-  --light-gray: rgb(214, 226, 240);
+  --light-gray: hsl(212, 46%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 }
@@ -56,7 +56,7 @@ h3 {
 }
 
 .card__heading {
-  font-size: 2.1rem;
+  font-size: 2rem;
   padding: 1rem;
   margin: 1rem 0 0;
 }
